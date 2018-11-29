@@ -1,0 +1,7 @@
+/*
+ source  : mySand.css
+ purpose : css stylesheet providing a sand textured background
+ author  : kenn melvin
+*/
+ body {color:Black}
+ body {background-image:url(Sand.gif);}

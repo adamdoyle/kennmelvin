@@ -1,0 +1,96 @@
+/*
+ source  : myCommon.css
+ purpose : css stylesheet providing a green background
+ author  : kenn melvin
+*/
+ body,h1,h2,h3,td,th,p {font-family:Verdana,Arial;}
+ body {margin-left:0.8in; margin-right:0.5in; font-size:10pt;} 
+ p {font-size:10pt;}  /* for netscape */
+ h1,h2 {margin-left:-0.2in;}
+ h1 {font-size:18pt; font-weight:Bold;color:Navy;}
+ h2 {font-size:14pt;}
+ h3 {font-size:16pt; font-style:Italic; font-family:Times; font-weight:Normal;}
+ h4 {font-size:10pt;}
+ h5 {font-size:8pt; color:Gray; font-style:Italic; font-weight:Normal;}
+ h6 {font-size:8pt; font-style:Italic; font-weight:Normal;}
+ dt {font-size:10pt; font-family:Verdana,Arial; color:Navy; font-weight:Bold;}
+ dd {font-size:10pt; font-family:Verdana,Arial; color:Black;}
+ a:hover {color:Navy; background-color:White;}
+ td {font-size:10pt;}
+ th {font-size:11pt; font-weight:Bold; color:White; background-color:Navy; background-image:url(bgNavyV.jpg);}
+
+/* layout for the video pages */
+
+.myForm    {background-image:url(bgSteel.gif);}
+.mySelect2 {background-color:#883333; color:#FFFFFF;}
+.mySelect  {background-color:#551111; color:#FFFFFF;}
+.mySelect0 {background-color:#BBBBFF; color:#000000;}
+.myPageLogo {position:absolute; right:0;}
+.mySiteLogo {
+  position:absolute; 
+  left:30; top:50;
+  width:300px; height:80px; 
+  background-image:url(../images/cdBowlingVideosLeft.gif);
+  }
+.myContent {
+  float:left; position:relative; top:100;
+  }
+.myVideoPlayer {
+  float:center;
+  }
+.myVideoControl {
+  float:right;
+  width:100px;
+  text-align:center;
+  background-color:Silver;
+  background-image:url(bgSteel.gif);
+  }
+
+.bigGray {color:Gray; font-size:12pt; font-style:Italic; font-weight:bold;}
+.BlackBold {font-size:14pt; font-family:Verdana,Arial,sans-serif; color:Black;}
+.bigTimes {color:Gray; font-family:TimesNewRoman,serif; font-size:20pt; font-weight:Bold; font-style:Italic;}
+.bigArial {color:Gray; font-family:ArialBlack,sans-serif; font-size:36pt; font-weight:Bold;}
+.clsDescn {visibility:hidden; color:Green; font-size:9pt; font-family:Arial;}
+.clsFrame {margin-left:0.8in; margin-right:0.8in;}
+.clsMenuDetail {color:white; font-size:12pt;}
+.descn {position:relative; left:0; text-align:Center; font-size:10pt;}
+.descnOn {color:Yellow; font-style:Italic; font-size:10pt;}
+.evenLine {background-color:#EEFFEE;}
+.evenRow  {background-color:#DDDDEE;}
+.FaqHeader {font-family:Times,serif; font-style:Italic; font-size: 20pt; font-weight:bold; color:Gray; background-color:Silver;}
+.Gold {font-weight:Bold; color:#DD7700;}
+.hdrRow {font-size:20pt; font-family:Times,serif; font-style:Italic; color:Gray;}
+.hdrRowNavy {font-size:20pt; font-family:Times,serif; font-style:Italic; background-image:url(bgNavyH.gif);}
+.Highlight {color:yellow; background-color:Navy; font-weight:Bold;}
+.insetTimes {font-family:Times,serif; font-size:13pt; font-style:Italic; color:Gray;}
+.ItalicGray {color:Gray; font-family:Times,serif; font-style:Italic; font-size:12pt;}
+.LeadIn {font-size:11pt; font-weight:Bold;}
+.lnkHeader {text-align:Center; font-size:10pt; font-weight:Bold; color:White; background-color:Teal; background-image:url(bgTealV.jpg);}
+.lnkBody {font-size:10pt; background-color:Silver; color:Black;}
+.lnkTop {font-size:8pt; color:Navy;font-family:Verdana,Arial; font-weight:Bold;}
+.myAnswer {margin-left: 10px;}
+.myBanner {text-align:Right; font-weight:Normal; font-style:Italic; font-size:30pt; font-family:Times,Serif; color:#C0C0C0;}
+.myButton {width:70px;}
+.myCapital {font-size:13pt; font-weight:Bold; font-style:Italic;}
+.myContact {font-size:8pt; font-style:Italic; text-align:right;}
+.myDiagHeader { text-align: center; background-color:Maroon; color:White; font-weight:Bold; background-image:url(bgMarV.jpg);}
+.myImgRight {clear:left;}
+.myLink {text-align:Center; font-family:Verdana,Arial; font-size:12pt; font-weight:Bold;}
+.myLinkOn {font-size:12pt; font-family:Verdana,Arial; font-weight:Bold;}
+.myLinkOn:hover {color:#008000;}
+.myMenu {font-size:11pt; font-family:Verdana,Arial; color:Navy; font-weight:Bold;}
+.myMenuOn {font-size:11pt; font-family:Verdana,Arial; color:Green;font-weight:Bold;}
+.myNavBar {text-decoration:none; font-weight:Bold; font-size:10pt; font-family:Verdana,Arial,sans-serif; color:Gray;}
+.myNavBar:hover {color:#008000;}
+.myNews {text-align:Left; color:yellow; font-weight:Bold;}
+.myPortal {text-align:Center;}
+.myQ {font-family:Arial,Verdana,sans-serif; font-style:Normal; font-size:11pt; font-weight:Normal; color:White; background:url(bgNavyV.jpg);}
+.myTop {font-size:8pt; color:White;font-family:Verdana,Arial; font-weight:Bold;}
+.navBev {font-weight:bold; font-size:8pt; font-family:Verdana,Arial,sans-serif; background-image:url(bgBev.gif); background-repeat:no-repeat;}
+.navHeader {background-color:Navy; color:White; font-weight:bold; font-size:11pt; font-family:Verdana,Arial; background-image:url(bgNavyV.jpg);}
+.navBody {background-color:Silver; color:Black; font-weight:normal; font-size:10pt; font-family:Verdana,Arial;}
+.navLinkH {color:White; font-weight:bold; font-size:11pt; font-family:Verdana,Arial;}
+.niBanner {margin-left:-0.7in; font-size:16pt; font-weight:Bold; color:Silver; background-image:url(bgNavyV.jpg);}
+.oddRow   {background-color:#EEEEFF;}
+.oddLine  {background-color:#FFFFFF;}
+

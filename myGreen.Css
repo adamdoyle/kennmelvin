@@ -1,0 +1,17 @@
+/*
+ source  : myGreen.css
+ purpose : css stylesheet providing a green background
+ author  : kenn melvin
+*/
+ body {background-color:Black; background-image:url(niGreen.jpg); background-attachment:fixed;}
+ body,p,h1,h2,h3,h4,h5,h6,td {color:White;}
+ h3 {color:#8CFF8C;}
+ h5 {color:Silver;}
+ a {color:#9DFFA3;}
+.descn {Color:White;}
+.LeadIn {color:#9DFFA3;}
+.myBanner {color:#338833;}
+.myLink {color:#9DFFA3;}
+.myLinkOn {color:Yellow;}
+.myLinkOn:hover {color:#008000;}
+.myNavBar {color:#228822;}

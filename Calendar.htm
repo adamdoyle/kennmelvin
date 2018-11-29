@@ -1,0 +1,253 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta http-equiv="keywords"
+content="nitbf, calendar, northern ireland tenpin bowling federation, derry, belfast, dundonald, brunswick superbowl">
+<title>NITBF Calendar of Events</title>
+<link rel="stylesheet" type="text/css" href="mySand.Css">
+
+</head>
+
+<body background="Sand.gif" bgcolor="#FFFFFF" onload="myFilter()">
+<object id="dsoCalendar" name="dsoCalendar"
+classid="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83" border="0"
+width="20" height="20"><param name="DataURL" value="calendar.csv"><param
+name="UseHeader" value="True"></object>
+<script language="JavaScript">
+<!--
+var navVersion=navigator.appVersion;
+var navName=navigator.appName;
+var ie4=((navName=="Microsoft Internet Explorer") && (parseInt(navVersion)>=4));
+var ns4=((navName=="Netscape") && (parseInt(navVersion)>=4));
+//-->
+</script>
+<script><!--
+if (!ie4)
+{
+ document.open();
+ document.write ("<table border=4 align=center width=90%>");
+ document.write ('<tr><td bgcolor="Red">');
+ document.write ('<strong><font color="White"><center>To get the full benefit of this calendar you need to be using ');
+ document.write ('Internet Explorer V4 or greater.  We do have a ');
+ document.write ("<a href='Calend2.htm'>normal-calendar</a> for your use.</center></font></strong>");
+ document.write ('</td></tr>');
+ document.write ('</table>');
+}
+//-->
+</script>
+<script language="JavaScript">
+<!--
+var navVersion=navigator.appVersion;
+var navName=navigator.appName;
+var ie4=((navName=="Microsoft Internet Explorer") && (parseInt(navVersion)>=4));
+var ns4=((navName=="Netscape") && (parseInt(navVersion)>=4));
+
+function myFilter()
+{
+ myFilterStr = "";
+ if (myForm.selYear.selectedIndex > 0)
+ {
+  myFilterStr = "Year>=" + myForm.selYear.options[myForm.selYear.selectedIndex].value;
+ } else myFilterStr = "Year>=2000";
+
+ if (myForm.selMonth.selectedIndex > 0)
+ {
+  if (myFilterStr!="") myFilterStr=myFilterStr+" & ";
+  myFilterStr = myFilterStr + "Month=" + myForm.selMonth.options[myForm.selMonth.selectedIndex].value;
+ }
+
+ if (myForm.selVenue.selectedIndex >0 )
+ {
+  if (myFilterStr!="") myFilterStr=myFilterStr+" & ";
+  myFilterStr = myFilterStr + "Venue=" + myForm.selVenue.options[myForm.selVenue.selectedIndex].value;
+ }
+
+ if (myForm.selClass.selectedIndex > 0)
+ {
+  if (myFilterStr!="") myFilterStr=myFilterStr+" & ";
+  myFilterStr = myFilterStr + "Class=" + myForm.selClass.options[myForm.selClass.selectedIndex].value;
+ }
+ dsoCalendar.Filter=myFilterStr;
+ dsoCalendar.Reset();
+}
+// --></script>
+
+<p><a name="Top"></a></p>
+<div align="right">
+
+<table border="0" cellpadding="2" cellspacing="0"
+class="myNavBar">
+    <tr>
+        <td><a href="kNitbf.htm"><font color="#008000">NITBF</font></a></td>
+        <td><a href="niPeople.htm"><font color="#008000">Contacts</font></a></td>
+        <td><a href="niTeams.htm"><font color="#008000">Teams</font></a></td>
+        <td><a href="niMedals.htm"><font color="#008000">Achievements</font></a></td>
+        <td><a href="tMain.htm"><font color="#008000">Training</font></a></td>
+    </tr>
+</table>
+</div><div align="right">
+
+<table border="0">
+    <tr>
+        <td align="right" class="myBanner">Calendar</td>
+    </tr>
+</table>
+</div>
+
+<h1>Calendar of Events </h1>
+
+<p class="LeadIn"><a href="knitbf.htm"><img src="tmbNi.gif"
+alt="NITBF Logo - press to return to index" align="right"
+border="0" hspace="2" vspace="2" width="96" height="72"></a>Here
+is a list of events which, to the best of my knowledge, is
+correct at the time of writing. Bowlers from Northern Ireland may
+be attending on an individual basis or representing their country.
+No guarantee is made that the organiser will hold the event on
+the dates shown. </p>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td valign="top">If you know of an event that you would
+        like included here please get in touch with <a
+        href="mailto:GetACoach@Yahoo.com">myself</a>.<h6>Revised
+        January 1st, 2001</h6>
+        </td>
+        <td><div align="center"><center><table border="0" cellspacing="0" cellpadding="0" width="150">
+            <tr>
+                <td align="center" class="lnkHeader">Related
+                Links</td>
+            </tr>
+            <tr>
+                <td class="lnkBody">You can view the current <a
+                href="rankings.htm">Rankings</a> or read about
+                the <a href="ni_mens.htm">Mens</a> and <a
+                href="niladies.htm">Ladies</a> teams.</td>
+            </tr>
+        </table>
+        <table width="150" cellspacing="0"><tr><td><img src="dsBot.gif" width="100%" height="8x"></td></tr></table>
+        </center></div></td>
+    </tr>
+</table>
+
+<hr width="80%">
+
+<h2>NITBF Calendar</h2>
+
+<p>Once the calendar loads you can view the calendar in whole, or search it by Month,
+Venue or type of event by choosing from the pull down lists below.
+</p>
+
+<form method="POST" name="myForm">
+    <p>Year <select name="selYear" size="1" id="selYear"
+    onchange="myFilter()">
+        <option>All</option>
+        <option value="2002">2002</option>
+        <option selected value="2001">2001</option>
+        <option value="2000">2000</option>
+        <option value="1999">1999</option>
+        <option value="1998">1998</option>
+    </select> Month <select name="selMonth" size="1"
+    id="selMonth" onchange="myFilter()">
+        <option>All</option>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+    </select> Venue <select name="selVenue" size="1"
+    id="selVenue" onchange="myFilter()">
+        <option>All</option>
+        <option value="Derry">Derry</option>
+        <option value="Ballymena">Ballymena</option>
+        <option value="Belfast">Belfast</option>
+    </select> Classsification <select name="selClass" size="1"
+    id="selClass" onchange="myFilter()">
+        <option>All</option>
+        <option value="Local">Local</option>
+        <option value="National">National</option>
+        <option value="International">International</option>
+        <option value="Training">Training</option>
+    </select></p>
+</form>
+
+<div align="center"><center>
+
+<table border="1" cellspacing="1" width="95%" bgcolor="#C0C0C0"
+datasrc="#dsoCalendar" id="myTable">
+    <tr>
+        <td><!--webbot bot="HTMLMarkup" startspan --><thead><!--webbot
+        bot="HTMLMarkup" endspan --></td>
+    </tr>
+    <tr>
+        <th>Month</th>
+        <th>Year</th>
+        <th>Date</th>
+        <th>Venue</th>
+        <th>Event Details</th>
+    </tr>
+    <tr>
+        <td><!--webbot bot="HTMLMarkup" startspan --></thead><!--webbot
+        bot="HTMLMarkup" endspan --></td>
+        <td><font size="2"><span datafld="Month"> </span></font></td>
+        <td><font size="2"><span datafld="Year"> </span></font></td>
+        <td><font size="2"><span datafld="Date"></span></font></td>
+        <td><font size="2"><span datafld="Venue"></span></font></td>
+        <td><font size="2"><span datafld="Description"></font><font size="1"></span></font></td>
+    </tr>
+</table>
+</center></div>
+
+<hr width="80%">
+<div align="center"><center>
+
+<table border="3" cellpadding="2" cellspacing="0"
+bgcolor="#C0C0C0">
+    <tr>
+        <td><a href="#Top"><font color="#000040" size="1"
+        face="Verdana"><strong>Top</strong></font></a></td>
+        <td><a href="kNitbf.htm"><font color="#000040" size="1"
+        face="Verdana"><strong>NITBF</strong></font></a></td>
+        <td><a href="kVideo.htm"><font color="#000040" size="1"
+        face="Verdana"><strong>Video</strong></font></a></td>
+        <td><a href="gallery.htm"><font color="#000040" size="1"
+        face="Verdana"><strong>Downloads</strong></font></a></td>
+        <td><a href="tMain.htm"><font color="#000040" size="1"
+        face="Verdana"><strong>Training</strong></font></a></td>
+        <td><a href="Ni_Mens.Htm"><font color="#000040" size="1"
+        face="Verdana"><strong>Teams</strong></font></a></td>
+    </tr>
+</table>
+</center></div>
+
+<p align="right"><a href="kme.htm">Contact Information</a></p>
+
+<p><!-- start of extreme --> <a href="http://u.extreme-dm.com/?login=mr300" target="_top"><img
+src="http://u1.extreme-dm.com/i.gif" border="0" width="41"
+height="38" name="im"><script language="javascript"><!--
+an=navigator.appName;d=document;function
+pr(){d.write("<img src=\"http://u0.extreme-dm.com",
+"/0.gif?tag=mr300&j=y&srw="+srw+"&srb="+srb+"&",
+"rs="+r+"&l="+escape(d.referrer)+"\" height=1 ",
+"width=1>");}srb="na";srw="na";//-->
+</script><script
+language="javascript1.2"><!--
+s=screen;srw=s.width;an!="Netscape"?
+srb=s.colorDepth:srb=s.pixelDepth;//-->
+</script><script language="javascript"><!--
+r=41;d.images?r=d.im.width:z=0;pr();//-->
+</script><noscript></a><img
+src="http://u0.extreme-dm.com/0.gif?tag=mr300&amp;j=n" width="1"
+height="1"></noscript> <!--end of extreme --> </p>
+
+<p>&nbsp;</p>
+</body>
+</html>
